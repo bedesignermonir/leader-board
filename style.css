@@ -1,6 +1,9 @@
 * {
     margin: 0;
+}
 
+body {
+    background-color: #F4F2F9;
 }
 
 .nav-bar-section {
@@ -41,13 +44,21 @@
 /* nav section finished */
 
 /* top section start */
+/* top player start */
 .topsecton {
-    margin: 10px 200px;
+    margin: 50px 200px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .top-player {}
 
-.top-player h2 {
+.text-margin {
     margin-left: 40px;
     margin-bottom: 40px;
 }
@@ -83,3 +94,109 @@ hr {
     border: 1px solid gray;
     margin: 20px;
 }
+
+/* top player finisehd */
+
+/* top blog start */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.blog-details {
+    display: flex;
+    align-items: center;
+}
+
+.blog-details img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* top blog finished */
+
+/* latest course start */
+.latest-course-section {
+    /*margin: 50px 200px;
+    */
+    margin: 10px 200px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.latest-course {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.course {
+    /* background-color: #5456A5; */
+    height: 250px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 10px 10px 10px lightgray;
+    padding: 30px;
+
+}
+
+.course img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.course-mini-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.star {
+    display: flex;
+}
+
+.star li {
+    list-style: none;
+}
+
+.star img {
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+}
+
+.time {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.169);
+    padding: 5px 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.time img {
+    width: 100%;
+    max-width: 20px;
+    height: auto;
+}
+
+
+
+
+/* latest course finished */
